@@ -1,0 +1,311 @@
+.app-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.main {
+  /* height: 10vh; */
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+
+.leftside {
+  width: 14%;
+  border-right: 1px solid rgba(136, 136, 136, 0.39);
+  /* border: 1px solid black; */
+  position: fixed;
+  /* z-index: 1; */
+  /* position: relative; */
+  /* position:sticky; */
+  /* margin: 10px; */
+  /* background-color: rgba(0, 0, 0, 0.226); */
+  height: 100vh;
+}
+
+.left2 {
+  position: fixed;
+  bottom: 10px;
+
+}
+
+.centered {
+
+  width: 50%;
+  /* height: 20 vh; */
+  /* border: 1px solid black; */
+  margin-left: 20%;
+  /* padding: 5px; */
+}
+
+.top {
+  position: sticky;
+  /* position: fixed; */
+  /* z-index: 1; */
+  /* margin-top: 10px; */
+  height: 10vh;
+  width: 99%;
+  top: 0;
+  font-size: 20px;
+  margin-left: 4px;
+  background-color: rgb(0, 0, 0);
+  /* background-color: blur(black); */
+}
+
+b {
+  margin-left: 15px;
+  ;
+}
+
+.twiittss {
+  /* width: 100%;  */
+  height: 30vh;
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
+  /* position: absolute; */
+  /* top: 0px; */
+  /* z-index: -1; */
+  /* background-color: rgba(28, 107, 160, 0.541); */
+  border-bottom: 1px solid rgba(136, 136, 136, 0.39);
+
+}
+
+/* .twiittss:hover {
+  background-color: rgba(32, 139, 211, 0.541);
+} */
+
+.twiittss ul {
+  /* height: 10vh; */
+  list-style: none;
+  margin: 0;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.twiittss1 ul {
+  /* background-color:white; */
+  /* height:14vh; */
+  list-style: none;
+  /* margin-top: 5%; */
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tt {
+  /* display:flex; */
+  width: 80%;
+  height: 25vh;
+  overflow-y: auto;
+}
+
+.comment:hover {
+  /* background-color: rgba(54, 62, 153, 0.247); */
+  color: rgb(0, 119, 255);
+  border-radius: 5px;
+}
+
+.recomment:hover {
+  /* background-color: rgba(54, 153, 62, 0.247); */
+  color: rgba(16, 252, 114, 0.747);
+  border-radius: 5px;
+}
+
+.like:hover {
+  /* background-color: rgba(153, 57, 54, 0.247); */
+  color: rgba(255, 0, 0, 0.89);
+  border-radius: 5px;
+}
+
+.twiittss1 button {
+  /* padding:10px; */
+  margin: 15px 60px;
+  color: rgba(136, 136, 136, 0.767);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
+
+.rightside {
+  border-left: 1px solid rgba(136, 136, 136, 0.39);
+  /* position: inherit; */
+  position: fixed;
+  right: 16.5%;
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0)
+}
+
+.srch {
+  background-color: rgb(0, 0, 0);
+  /* position: sticky; */
+  /* top:10px; */
+  margin-left: 9px;
+}
+
+.left1 ul {
+  list-style: none;
+  font-size: 17px;
+}
+
+.left1 ul li {
+  margin-top: 9%;
+  /* justify-content: space-between; */
+}
+
+.left1 ul a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.left1 ul a:hover {
+  background-color: rgba(100, 100, 100, 0.438);
+  border: 5px;
+  border-radius: 30px;
+}
+
+.top a {
+  position: fixed;
+  top: 10px;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+ol a {
+  text-decoration: none;
+  color: white;
+}
+
+ol a:hover {
+  color: rgb(69, 122, 143);
+  border: 5px;
+  border-radius: 30px;
+}
+
+
+
+.btn-twitt {
+  color: white;
+  font-size: 16px;
+  width: 70%;
+  height: 5vh;
+  border-radius: 25px;
+  border: none;
+  background-color: #4F9CF0;
+  margin-left: 10%;
+  ;
+}
+
+.btn-twitt:hover {
+  background-color: #468CD8;
+}
+
+.btn-tw {
+  color: white;
+  font-size: 16px;
+  width: 15%;
+  height: 4vh;
+  border-radius: 25px;
+  border: none;
+  background-color: #4F9CF0;
+}
+
+.search {
+  /* position: fixed; */
+  /* top:0; */
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 9px;
+  border-radius: 25px;
+  height: 5vh;
+  background-color: rgba(110, 108, 108, 0.658);
+  border: 1px solid transparent;
+
+}
+
+.search:hover {
+  border: 1px solid rgb(53, 114, 150);
+}
+
+.inps {
+  padding-left: 20px;
+  padding-top: 9px;
+}
+
+.inp-search {
+  margin-left: 10px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+ol li {
+  display: inline;
+  margin: 10px;
+}
+
+.imnp {
+  margin-left: 10%;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+
+.createtweet {
+  border-bottom: 1px solid rgba(136, 136, 136, 0.39);
+
+}
+
+.populer {
+  margin-top: 100px;
+  border-radius: 25px;
+  height: 40vh;
+  width: 80%;
+  background-color: rgba(110, 108, 108, 0.226);
+  margin: 10px;
+}
+
+.follow {
+  border-radius: 25px;
+  height: 50vh;
+  width: 80%;
+  background-color: rgba(110, 108, 108, 0.226);
+  margin: 10px;
+}
+
+.liked {
+  border-radius: 25px;
+  height: 20vh;
+  width: 80%;
+  background-color: rgba(110, 108, 108, 0.226);
+  margin: 10px;
+}
+
+body::-webkit-scrollbar {
+    
+  height: 1px;
+}
+ 
+ 
+body::-webkit-scrollbar-thumb {
+  border:2px solid #000000;
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  background-color: #1199f3c2;
+  /* outline: 1px solid rgb(124, 124, 124); */
+}
